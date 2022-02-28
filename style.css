@@ -1,0 +1,275 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Rubik', sans-serif;
+    margin-left: 1vh;
+    margin-right:1vh;
+}
+body{
+    background-color: #f8f8f8;
+    color: #212121;
+}
+
+
+nav{
+    display:flex;
+    justify-content: space-between;
+    font-size: 4vh;
+    
+}
+a{
+    text-decoration: none;
+    color: #f8f8f8;
+    margin-right: 5vh;
+    background-color: #212121;
+    border-radius: 15px;
+}
+a:hover{
+color:#212121;
+background-color: #f8f8f8;
+}
+
+.logo{
+
+    display: flex;
+    background-color: #212121;
+    color: #f8f8f8;
+    border-radius: 50%;
+
+    
+}
+.logo:hover{
+    background-color: #f8f8f8;
+    color: #212121;
+    
+}
+
+main{
+
+}
+.apresentation{
+    font-size: 3vh;
+}
+
+.content{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    height: 600px;
+}
+.foto{
+    margin-left: 10vh;
+}
+
+.minha{
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+}
+
+.social{
+    
+    text-align: start;
+}
+
+.secound{
+    margin-top: 15vh;
+    height: 600px;
+}
+
+.skill{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 5rem;
+    margin-left: 5rem;
+    height: 50px;
+    margin-top: 10rem;
+    text-align: center;
+    align-items: center;
+    
+
+}
+
+.skillone{
+    width: 150px;
+    height: 40px;
+}
+.skilltwo{
+    width: 150px;
+    height: 40px;
+
+}
+.skilltre{
+    width: 150px;
+    height: 40px;
+
+}
+.descri{
+    font-size: 50px;
+margin-left: 5vh;
+text-align: start;}
+.tecnologyone{
+    display: flex;
+    justify-content: space-between;
+    font-size: 50px;
+}
+
+.tecnologytwo{
+    display: flex;
+    margin-top: 5vh;
+font-size: 50px;
+justify-content:space-between;}
+
+
+
+.terceiro {
+    height: 600px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.tecno{
+    margin: 5rem;
+}
+hr{
+    margin-top: 5vh;
+    
+}
+
+
+.for{
+    margin-top: 5vh;
+    height: 600px;
+}
+
+
+.contato{
+    margin-top: 30%;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+em{
+    font-size: 15px;
+}
+
+footer{
+    text-align: center;
+    background-color: #212121;
+    color: #f8f8f8;
+    border-radius: 20px;
+}
+
+
+@media screen and (max-width: 600px) {
+    nav{
+        width:100%
+        display:flex;
+        justify-content: space-between;
+    font: 1rem;;        
+    }
+    a{
+        display: flex;
+        text-decoration: none;
+        color: #212121;
+      
+    
+    }
+    .content{
+        display: flex;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        height: 600px;
+    }
+    .foto{
+    }
+    
+    .minha{
+        width: 100px;
+        height: 200px;
+        border-radius: 10px;
+    }
+    .apresentation{
+        font-size: 1vh;
+    }
+    body{
+        width:375px;
+        overflow: hidden
+;    }
+.secound{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.skill{
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    margin-top: 10rem;
+    margin-left: 0;
+    align-items: center;
+    text-align: center;
+
+}
+
+.skillone{
+    width: 150px;
+    height: 40px;
+}
+.skilltwo{
+    width: 150px;
+    height: 40px;
+
+}
+.skilltre{
+    width: 150px;
+    height: 40px;
+
+}
+
+.tecnologyone{
+    justify-content: space-between;
+    font-size: 20px;
+    margin-left: 0;
+    
+}
+
+.tecnologytwo{
+    display: flex;
+font-size: 20px;
+justify-content:space-between;}
+
+
+
+
+
+.terceiro {
+    height: 600px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.tecno{
+    width: 200px;
+    margin-right: 50px;
+}
+
+.descri{
+    font-size: 30px;
+    margin-left: 0;
+}
+
+.formulario{
+    display: none;
+}
+.social{
+display: flex;}
+    }
