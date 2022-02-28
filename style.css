@@ -15,16 +15,18 @@ body{
 nav{
     display:flex;
     justify-content: space-between;
-    font-size: 4vh;
     
 }
 a{
     text-decoration: none;
-    color: #212121;
     margin-right: 5vh;
     border-radius: 15px;
+    color: #212121;
 }
-
+a:hover{
+color:#212121;
+background-color: #f8f8f8;
+}
 
 .logo{
 
@@ -104,7 +106,8 @@ main{
 }
 .descri{
     font-size: 50px;
-text-align: start;
+margin-left: 5vh;
+text-align: start;}
 .tecnologyone{
     display: flex;
     justify-content: space-between;
@@ -163,15 +166,14 @@ footer{
 
 @media screen and (max-width: 600px) {
     nav{
-        width:100%
+        width:100%;
         display:flex;
         justify-content: space-between;
     font: 1rem;;        
     }
     a{
-        display: flex;
         text-decoration: none;
-        color: #212121;
+        
       
     
     }
@@ -193,10 +195,9 @@ footer{
     .apresentation{
         font-size: 1vh;
     }
-    body{
-        width:375px;
-        overflow: hidden
-;    }
+   hr{
+       width: 100%;
+   }
 .secound{
     text-align: center;
     align-items: center;
