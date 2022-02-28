@@ -104,8 +104,7 @@ main{
 }
 .descri{
     font-size: 50px;
-margin-left: 5vh;
-text-align: start;}
+text-align: start;
 .tecnologyone{
     display: flex;
     justify-content: space-between;
