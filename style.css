@@ -20,15 +20,11 @@ nav{
 }
 a{
     text-decoration: none;
-    color: #f8f8f8;
+    color: #212121;
     margin-right: 5vh;
-    background-color: #212121;
     border-radius: 15px;
 }
-a:hover{
-color:#212121;
-background-color: #f8f8f8;
-}
+
 
 .logo{
 
